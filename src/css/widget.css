@@ -1,0 +1,52 @@
+#appinion-widget-root > .comp-wrap > .widget-wrap > .widget {
+  height: 100%;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#appinion-widget-root > .comp-wrap > .widget-wrap > .widget > .video-wrap {
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  > video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  > .shadow {
+  transition: 0.5s;
+  position: absolute;
+  -moz-box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+  box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+}
+
+#appinion-widget-root > .comp-wrap > .info {
+  z-index: -1;
+  padding-left: 17px;
+  padding-bottom: 18px;
+  padding-top: 25px;
+  transition: 0.5s;
+}
+
+#appinion-widget-root > .comp-wrap > .info > .divider {
+  width: 48px;
+  height: 4px;
+  margin: 8px 0;
+}

@@ -1,0 +1,54 @@
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .gallery-controlls {
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .gallery-controlls
+  > .controll-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .gallery-controlls
+  > .controll-item
+  > video {
+  width: 34px;
+  height: 48px;
+  cursor: pointer;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .gallery-controlls
+  > .controll-item
+  > div {
+  width: 8px;
+  height: 8px;
+  border-radius: 180px;
+}

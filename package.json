@@ -1,0 +1,35 @@
+{
+  "name": "widget-appinion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex-La <55190911+Alex-La@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV='production' && webpack",
+    "dev": "webpack serve --hot --host 0.0.0.0",
+    "start": "serve dist -s -c 1",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-react-jsx": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "preact": "^10.5.13"
+  }
+}

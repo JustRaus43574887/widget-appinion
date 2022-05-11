@@ -1,0 +1,30 @@
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .sta-button {
+  height: 45px;
+  position: absolute;
+  bottom: 130px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#appinion-widget-root
+  > .comp-wrap
+  > .widget-wrap
+  > .widget
+  > .video-wrap
+  .sta-button
+  > p {
+  font-size: 14;
+  font-weight: 500;
+}
